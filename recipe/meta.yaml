@@ -1,5 +1,5 @@
 {% set name = "digitalearth" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/MAfarrag/Digital-Earth/archive/{{ version }}.tar.gz
-  sha256: f52d905ee2aa5ca3c1ad35f854c6a58b2a3166c5e07b4e37bbbdc2c0c3495825
+  sha256: f1b1cb84fb373de5b57f919ff1508bd04767443f0e5c923803823291be2b4b49
 
 build:
   number: 0
