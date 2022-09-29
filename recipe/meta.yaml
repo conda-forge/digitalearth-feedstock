@@ -24,7 +24,7 @@ requirements:
     - pyramids >=0.2.5
     - cleopatra >=0.2.3
 #    - matplotlib-base >=3.5.3,<3.6.0
-    - loguru >=0.6.0
+#    - loguru >=0.6.0
 
 
 test:
