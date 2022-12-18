@@ -24,6 +24,7 @@ requirements:
     - pyramids >=0.2.7
     - cleopatra >=0.2.3
     - loguru >=0.6.0
+    - gdal >= 3.4.3
 #    - matplotlib-base >=3.5.3,<3.6.0
 #    - numpy >=1.23.3
 
