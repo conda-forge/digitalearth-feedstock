@@ -1,5 +1,5 @@
 {% set name = "digitalearth" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/MAfarrag/Digital-Earth/archive/{{ version }}.tar.gz
-  sha256: e15194657fb77f4fad03ca3ce9bafb2bf47977bdf6bf22b3e162bb2ee904dfc0
+  sha256: 9693835cc266e4607526b85d797ef2c467cda35c737c1bd44d28f08475c74959
 
 build:
   number: 0
@@ -16,17 +16,17 @@ build:
 
 requirements:
   host:
-    - python >=3.9.12,<3.12
-    - pip >=22.2.2
-    - poetry >=1.2.1
+    - python >=3.9,<3.15
+    - pip >=22.3.1
   run:
-    - python >=3.9.11,<3.12
-    - pyramids >=0.2.7
+    - python >=3.9,<3.15
+    - numpy >=1.23.3
     - cleopatra >=0.2.3
+    - pyramids >=0.2.9
+    - gdal >=3.5.3
+    - geopandas >=0.12.2
+    - geoplot >=0.5.1
     - loguru >=0.6.0
-    - gdal >=3.5.0
-#    - matplotlib-base >=3.5.3,<3.6.0
-#    - numpy >=1.23.3
 
 
 test:
